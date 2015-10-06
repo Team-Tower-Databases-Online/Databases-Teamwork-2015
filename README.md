@@ -34,6 +34,8 @@
 
 * All reports should be different from each other and are by your choice. They can be sales reports, taxes reports, vendor reports, etc. Try to use real-world example.
 
+[Back to top &#8593;](#table-of-contents)
+
 ## Problem 1
 ### Load Excel Reports from ZIP File
 
@@ -52,6 +54,8 @@
 * **Output**:
   * PDF report
 
+[Back to top &#8593;](#table-of-contents)
+
 ## Problem 2
 ### Generate PDF Reports
 
@@ -59,6 +63,8 @@
 * _For example:_
   * the PDF report may contain a table like the sample below:
 [Sample-Aggregated-Sales-Report.pdf](https://github.com/Team-Tower-Databases-Online/Databases-Teamwork-2015/blob/master/Samples/Sample-Aggregated-Sales-Report.pdf)
+
+[Back to top &#8593;](#table-of-contents)
 
 ## Problem 3
 ### Generate XML Report
@@ -92,6 +98,8 @@
   * SQL Server database
 * **Output**:
   * XML report
+
+[Back to top &#8593;](#table-of-contents)
 
 ## Problem 4
 ### JSON Reports
@@ -146,6 +154,8 @@
   * a set of JSON files
   * data loaded in MySQL database
 
+[Back to top &#8593;](#table-of-contents)
+
 ## Problem 5
 ### Load data from XML
 
@@ -178,6 +188,8 @@
   * data loaded in the SQL Server
   * data loaded in the MongoDB
 
+[Back to top &#8593;](#table-of-contents)
+
 ## Problem 6
 ### Excel data
 
@@ -207,6 +219,8 @@
 * **Output**:
   * Excel 2007 file (.xlsx)
 
+[Back to top &#8593;](#table-of-contents)
+
 ## Additional Requirements
 
 *	Your main program logic should be a C# application (a set of modules, executed sequentially one after another).
@@ -222,4 +236,4 @@
 *	The SQLite embedded database should be accesses though its Entity Framework provider.
 *	For creating the Excel 2007 files (.xlsx) use a third-party non-commercial library.
 
-[Back to top](#table-of-contents)
+[Back to top &#8593;](#table-of-contents)
