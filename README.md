@@ -4,7 +4,7 @@
 
 - - -
 
-# Databases – Team Tower Project – October, 2015
+# Databases Teamwork 2015
 
 ## Table Of Contents
 
