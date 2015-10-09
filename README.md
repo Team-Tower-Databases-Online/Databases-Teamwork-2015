@@ -40,11 +40,11 @@
 ### Load Excel Reports from ZIP File
 
 * Your task is to write a C# program to **load Excel in MS SQL Server**. You may need to preliminary design a database schema to hold all data about the products (data from the MongoDB database and data from the Excel files) or use the "code-first" approach to move the DB schema from MongoDB to SQL Server. Your C# program should also move the products data from MongoDB to SQL Server.
-* The Excel files are given inside a **ZIP archive** holding subfolders named as the dates of the report in format **dd-MMM-yyyy** (see the example reports archive [Sample-Sales-Reports.zip](https://github.com/Team-Tower-Databases-Online/Databases-Teamwork-2015/blob/master/Samples/Sample-Sales-Reports.zip?raw=true)).
+* The Excel files are given inside a **ZIP archive** holding subfolders named as the dates of the report in format **dd-MMM-yyyy** (see the example reports archive [Sample-Sales-Reports.zip](https://github.com/Team-Tower-Databases-Online/Databases-Teamwork-2015/blob/master/Samples/Sample-Sales-Reports.zip)).
 * Note that the ZIP file could contain few hundred dates (folders), each holding few hundreds Excel files, each holding thousands of data.
-* **Input**: MongoDB database; ZIP file with Excel 2003 reports. Output: data loaded in the SQL Server database.
+* **Input**: MongoDB database, ZIP file with Excel 2003 reports. **Output**: data loaded in the SQL Server database.
 * _For example:_
-  * you may have the **MongoDB database “Supermarket”** holding information about some vendors and some products and a **set of Excel files** (*.xls) holding information about the sales in the different super¬markets.
+  * You may have the **MongoDB database “Supermarket”** holding information about some vendors and some products and a **set of Excel files** (*.xls) holding information about the sales in the different supermarkets.
 
 
 
@@ -61,7 +61,7 @@
 
 * Your task is to generate a PDF reports summarizing information from the SQL Server.
 * _For example:_
-  * the PDF report may contain a table like the sample below:
+  * The PDF report may contain a table like the sample below:
 [Sample-Aggregated-Sales-Report.pdf](https://github.com/Team-Tower-Databases-Online/Databases-Teamwork-2015/blob/master/Samples/Sample-Aggregated-Sales-Report.pdf)
 
 [Back to top &#8593;](#table-of-contents)
@@ -151,8 +151,8 @@
 * **Input**:
   * SQL Server database
 * **Output**:
-  * a set of JSON files
-  * data loaded in MySQL database
+  * A set of JSON files
+  * Data loaded in MySQL database
 
 [Back to top &#8593;](#table-of-contents)
 
@@ -185,8 +185,8 @@
 * **Input**:
   * XML file
 * **Output**:
-  * data loaded in the SQL Server
-  * data loaded in the MongoDB
+  * Data loaded in the SQL Server
+  * Data loaded in the MongoDB
 
 [Back to top &#8593;](#table-of-contents)
 
