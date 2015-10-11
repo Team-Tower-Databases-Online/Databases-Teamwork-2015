@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expenses-by-month>
+  <vendor name="Google">
+    <expenses month="Mar-2013">12330.00</expenses>
+    <expenses month="Sep-2013">22240.00</expenses>
+    <expenses month="Jan-2014">22240.00</expenses>
+    <expenses month="Feb-2014">12380.00</expenses>
+  </vendor>
+  <vendor name="The Boston Consulting Group">
+    <expenses month="Jan-2013">12110.00</expenses>
+    <expenses month="Aug-2013">232200.00</expenses>
+    <expenses month="Feb-2014">12380.00</expenses>
+  </vendor>
+  <vendor name="ACUITY">
+    <expenses month="Jun-2013">12120.00</expenses>
+    <expenses month="Jul-2013">1220.00</expenses>
+    <expenses month="Dec-2013">182320.00</expenses>
+  </vendor>
+  <vendor name="SAS Institute">
+    <expenses month="Jan-2013">122320.00</expenses>
+    <expenses month="Oct-2013">1180.00</expenses>
+    <expenses month="May-2014">32180.00</expenses>
+  </vendor>
+  <vendor name="Robert W. Baird">
+    <expenses month="Jan-2013">1210.00</expenses>
+    <expenses month="Jul-2013">12120.00</expenses>
+    <expenses month="Sep-2013">18220.00</expenses>
+    <expenses month="Mar-2014">32180.00</expenses>
+  </vendor>
+  <vendor name="Edward Jones">
+    <expenses month="Jul-2013">12320.00</expenses>
+    <expenses month="Jan-2014">123280.00</expenses>
+  </vendor>
+  <vendor name="Wegmans Food Markets">
+    <expenses month="Jul-2013">524324.00</expenses>
+    <expenses month="Aug-2013">234234.00</expenses>
+  </vendor>
+  <vendor name="salesforce">
+    <expenses month="Jun-2013">312344.00</expenses>
+    <expenses month="Jul-2013">312321.00</expenses>
+    <expenses month="Aug-2013">543555.00</expenses>
+  </vendor>
+  <vendor name="Genentech">
+    <expenses month="Jun-2013">243234.00</expenses>
+    <expenses month="Jul-2013">867866.00</expenses>
+    <expenses month="Aug-2013">546546.00</expenses>
+  </vendor>
+  <vendor name="Camden Property Trust">
+    <expenses month="Jul-2013">8678678.00</expenses>
+    <expenses month="Aug-2013">3453453.00</expenses>
+    <expenses month="Sep-2013">54645654.00</expenses>
+  </vendor>
+  <vendor name="Kimpton Hotels & Restaurants">
+    <expenses month="Jun-2013">1000000.00</expenses>
+    <expenses month="Jul-2013">3453453.00</expenses>
+    <expenses month="Aug-2013">3345345.00</expenses>
+    <expenses month="Sep-2013">5500000.00</expenses>
+  </vendor>
+  <vendor name="Quicken Loans">
+    <expenses month="Jul-2013">4234324.00</expenses>
+    <expenses month="Aug-2013">4324222.00</expenses>
+  </vendor>
+</expenses-by-month>
