@@ -56,10 +56,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConnectionString.Designer.cs">
+    <Compile Include="MongoDbSettings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>ConnectionString.settings</DependentUpon>
+      <DependentUpon>MongoDbSettings.settings</DependentUpon>
     </Compile>
     <Compile Include="Contracts\IMongoDbContext.cs" />
     <Compile Include="Mappings\AddressMap.cs" />
@@ -69,16 +69,28 @@
     <Compile Include="Mappings\ManufacturerMap.cs" />
     <Compile Include="Mappings\ProductMap.cs" />
     <Compile Include="Mappings\ProductTypeMap.cs" />
+    <Compile Include="MongoDataSeeder.cs" />
     <Compile Include="MongoDbContext.cs" />
+    <Compile Include="MongoDbHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="ConnectionString.settings">
+    <None Include="MongoDbSettings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>ConnectionString.Designer.cs</LastGenOutput>
+      <LastGenOutput>MongoDbSettings.Designer.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CloudTemple.Excel\CloudTemple.Excel.csproj">
+      <Project>{309986ed-bd94-48dd-aa29-f8ec47d88cfa}</Project>
+      <Name>CloudTemple.Excel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.Models\CloudTemple.Models.csproj">
+      <Project>{434bedee-ab0f-4c8b-b9ad-c883260e6ba4}</Project>
+      <Name>CloudTemple.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,7 @@
 ﻿namespace CloudTemple.MongoDB
 {
     using global::MongoDB.Driver;
+
     using Mappings;
 
     public class MongoDbContext
@@ -9,7 +10,7 @@
         private readonly string databaseName;
 
         public MongoDbContext()
-            : this(ConnectionString.Default.MongoDbLocalServer, ConnectionString.Default.MongoDbDefaultDatabase)
+            : this(MongoDbSettings.Default.MongoDbConnectionString, MongoDbSettings.Default.MongoDbDefaultDatabase)
         {
         }
 

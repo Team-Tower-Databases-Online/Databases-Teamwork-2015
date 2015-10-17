@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CloudTemple.Excel" GeneratedClassName="ExcelSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExcelConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties='Excel 12.0 xml;HDR=Yes';</Value>
+    </Setting>
+    <Setting Name="ModelsDataFileLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\ModelsData\models-data.xlsx</Value>
+    </Setting>
+    <Setting Name="SalesReportsDestinationFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\ModelsData\SalesReports\</Value>
+    </Setting>
+    <Setting Name="OutputZipFileLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\DataSources\sales-reports.zip</Value>
+    </Setting>
+    <Setting Name="ExcelReportsDestinationFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">..\..\..\..\Reports\XlsxReports\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Common", "Cloud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.ConsoleClient", "CloudTemple.ConsoleClient\CloudTemple.ConsoleClient.csproj", "{ABDBCF0B-C763-43E4-A72A-BCC8F82CED50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Data", "CloudTemple.Data\CloudTemple.Data.csproj", "{1EF15E96-53D8-459B-A826-4959F4375B04}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Excel", "CloudTemple.Excel\CloudTemple.Excel.csproj", "{309986ED-BD94-48DD-AA29-F8EC47D88CFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Models", "CloudTemple.Models\CloudTemple.Models.csproj", "{434BEDEE-AB0F-4C8B-B9AD-C883260E6BA4}"
@@ -25,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.JSON", "CloudTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.MongoDB", "CloudTemple.MongoDB\CloudTemple.MongoDB.csproj", "{E88DCC92-BC6B-49E0-9568-486458E82AEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Logic", "CloudTemple.Logic\CloudTemple.Logic.csproj", "{3F6BE672-03C7-455C-ADC3-433B39DB9238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.ReportsModels", "CloudTemple.ReportsModels\CloudTemple.ReportsModels.csproj", "{D20B395D-C69B-4B17-9522-3207F03D19CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +41,6 @@ Global
 		{ABDBCF0B-C763-43E4-A72A-BCC8F82CED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABDBCF0B-C763-43E4-A72A-BCC8F82CED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABDBCF0B-C763-43E4-A72A-BCC8F82CED50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EF15E96-53D8-459B-A826-4959F4375B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EF15E96-53D8-459B-A826-4959F4375B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EF15E96-53D8-459B-A826-4959F4375B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EF15E96-53D8-459B-A826-4959F4375B04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{309986ED-BD94-48DD-AA29-F8EC47D88CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{309986ED-BD94-48DD-AA29-F8EC47D88CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{309986ED-BD94-48DD-AA29-F8EC47D88CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +73,14 @@ Global
 		{E88DCC92-BC6B-49E0-9568-486458E82AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E88DCC92-BC6B-49E0-9568-486458E82AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88DCC92-BC6B-49E0-9568-486458E82AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6BE672-03C7-455C-ADC3-433B39DB9238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6BE672-03C7-455C-ADC3-433B39DB9238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6BE672-03C7-455C-ADC3-433B39DB9238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6BE672-03C7-455C-ADC3-433B39DB9238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,12 +1,14 @@
 ﻿namespace CloudTemple.Models
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
 
-    public class Product
+    [Table("PurchaseLocations")]
+    public class PurchaseLocation
     {
         private ICollection<Purchase> purchases;
 
-        public Product()
+        public PurchaseLocation()
         {
             this.purchases = new HashSet<Purchase>();
         }
@@ -14,22 +16,6 @@
         public int Id { get; set; }
 
         public string Name { get; set; }
-
-        public int VendorId { get; set; }
-
-        public virtual Vendor Vendor { get; set; }
-
-        public int CategoryId { get; set; }
-
-        public virtual ProductCategory Category { get; set; }
-
-        public int DetailsId { get; set; }
-
-        public virtual ProductDetails Details { get; set; }
-
-        public ProductMeasureUnit Measure { get; set; }
-
-        public decimal BasePrice { get; set; }
 
         public virtual ICollection<Purchase> Purchases
         {
