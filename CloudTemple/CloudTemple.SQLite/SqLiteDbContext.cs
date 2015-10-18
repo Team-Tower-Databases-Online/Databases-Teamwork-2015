@@ -7,7 +7,7 @@
     public class SqLiteDbContext : DbContext, ISqLiteDbContext
     {
         public SqLiteDbContext()
-            : base("SqLiteConnectionString")
+            : base("SqLiteConnection")
         {
             this.Database.CreateIfNotExists();
         }

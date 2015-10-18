@@ -22,12 +22,6 @@
         public virtual PurchaseLocation Location { get; set; }
 
         [NotMapped]
-        public decimal Sum
-        {
-            get
-            {
-                return this.UnitPrice * this.Quantity;
-            }
-        }
+        public decimal Sum => this.UnitPrice * this.Quantity;
     }
 }
