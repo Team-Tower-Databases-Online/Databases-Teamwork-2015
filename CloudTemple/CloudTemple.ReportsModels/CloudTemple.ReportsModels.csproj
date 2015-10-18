@@ -78,6 +78,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocationReport.cs" />
+    <Compile Include="LocationReportEntry.cs" />
     <Compile Include="ProductTax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -69,10 +69,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IXmlData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlData.cs" />
+    <Compile Include="XmlSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>XmlSettings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="XmlSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>XmlSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CloudTemple.Models\CloudTemple.Models.csproj">
+      <Project>{434bedee-ab0f-4c8b-b9ad-c883260e6ba4}</Project>
+      <Name>CloudTemple.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.ReportsModels\CloudTemple.ReportsModels.csproj">
+      <Project>{d20b395d-c69b-4b17-9522-3207f03d19ce}</Project>
+      <Name>CloudTemple.ReportsModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
