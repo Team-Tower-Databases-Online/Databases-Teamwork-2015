@@ -34,7 +34,7 @@ namespace CloudTemple.XML {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("..\\..\\..\\..\\Reports\\XmlReports\\")]
+        [global::System.Configuration.DefaultSettingValueAttribute("..\\..\\..\\..\\Reports\\XML_Reports\\")]
         public string ReportDestinationFolderLocation {
             get {
                 return ((string)(this["ReportDestinationFolderLocation"]));

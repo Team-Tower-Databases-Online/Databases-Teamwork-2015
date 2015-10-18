@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sales>
+  <location name="Alabama">
+    <summary date="01-Jan-2014" total-sum="34642.39" />
+    <summary date="02-Jan-2014" total-sum="32211.59" />
+    <summary date="03-Jan-2014" total-sum="7218.54" />
+  </location>
+  <location name="Alaska">
+    <summary date="01-Jan-2014" total-sum="8106.61" />
+    <summary date="02-Jan-2014" total-sum="22011.47" />
+    <summary date="03-Jan-2014" total-sum="28895.48" />
+  </location>
+  <location name="Arizona">
+    <summary date="01-Jan-2014" total-sum="26917.36" />
+    <summary date="02-Jan-2014" total-sum="29528.24" />
+    <summary date="03-Jan-2014" total-sum="24900.43" />
+  </location>
+  <location name="Arkansas">
+    <summary date="01-Jan-2014" total-sum="15112.86" />
+    <summary date="02-Jan-2014" total-sum="26269.63" />
+    <summary date="03-Jan-2014" total-sum="16915.32" />
+  </location>
+  <location name="California">
+    <summary date="01-Jan-2014" total-sum="32065.68" />
+    <summary date="02-Jan-2014" total-sum="25830.76" />
+    <summary date="03-Jan-2014" total-sum="20509.36" />
+  </location>
+  <location name="Colorado">
+    <summary date="01-Jan-2014" total-sum="22477.58" />
+    <summary date="02-Jan-2014" total-sum="26694.35" />
+    <summary date="03-Jan-2014" total-sum="16766.67" />
+  </location>
+  <location name="Connecticut">
+    <summary date="01-Jan-2014" total-sum="8772.10" />
+    <summary date="02-Jan-2014" total-sum="32643.88" />
+    <summary date="03-Jan-2014" total-sum="35587.20" />
+  </location>
+  <location name="Delaware">
+    <summary date="01-Jan-2014" total-sum="21456.35" />
+    <summary date="02-Jan-2014" total-sum="34514.41" />
+    <summary date="03-Jan-2014" total-sum="22056.50" />
+  </location>
+  <location name="Florida">
+    <summary date="01-Jan-2014" total-sum="18796.83" />
+    <summary date="02-Jan-2014" total-sum="37058.50" />
+    <summary date="03-Jan-2014" total-sum="10516.55" />
+  </location>
+  <location name="Georgia">
+    <summary date="01-Jan-2014" total-sum="20116.14" />
+    <summary date="02-Jan-2014" total-sum="29128.88" />
+    <summary date="03-Jan-2014" total-sum="27044.74" />
+  </location>
+  <location name="Hawaii">
+    <summary date="01-Jan-2014" total-sum="29879.81" />
+    <summary date="02-Jan-2014" total-sum="30889.82" />
+    <summary date="03-Jan-2014" total-sum="6564.86" />
+  </location>
+  <location name="Idaho">
+    <summary date="01-Jan-2014" total-sum="38996.44" />
+    <summary date="02-Jan-2014" total-sum="21988.40" />
+    <summary date="03-Jan-2014" total-sum="36735.43" />
+  </location>
+  <location name="Illinois">
+    <summary date="01-Jan-2014" total-sum="25902.42" />
+    <summary date="02-Jan-2014" total-sum="34697.93" />
+    <summary date="03-Jan-2014" total-sum="22411.84" />
+  </location>
+  <location name="Indiana">
+    <summary date="01-Jan-2014" total-sum="28281.31" />
+    <summary date="02-Jan-2014" total-sum="26277.73" />
+    <summary date="03-Jan-2014" total-sum="7401.34" />
+  </location>
+  <location name="Iowa">
+    <summary date="01-Jan-2014" total-sum="21208.30" />
+    <summary date="02-Jan-2014" total-sum="20411.89" />
+    <summary date="03-Jan-2014" total-sum="29920.64" />
+  </location>
+  <location name="Kansas">
+    <summary date="01-Jan-2014" total-sum="33071.77" />
+    <summary date="02-Jan-2014" total-sum="36276.48" />
+    <summary date="03-Jan-2014" total-sum="21403.01" />
+  </location>
+  <location name="Kentucky">
+    <summary date="01-Jan-2014" total-sum="26863.51" />
+    <summary date="02-Jan-2014" total-sum="25912.19" />
+    <summary date="03-Jan-2014" total-sum="27913.72" />
+  </location>
+  <location name="Louisiana">
+    <summary date="01-Jan-2014" total-sum="41404.22" />
+    <summary date="02-Jan-2014" total-sum="47624.09" />
+    <summary date="03-Jan-2014" total-sum="21666.42" />
+  </location>
+  <location name="Maine">
+    <summary date="01-Jan-2014" total-sum="13718.36" />
+    <summary date="02-Jan-2014" total-sum="13654.33" />
+    <summary date="03-Jan-2014" total-sum="36236.50" />
+  </location>
+  <location name="Maryland">
+    <summary date="01-Jan-2014" total-sum="15969.08" />
+    <summary date="02-Jan-2014" total-sum="27533.45" />
+    <summary date="03-Jan-2014" total-sum="46414.04" />
+  </location>
+</sales>

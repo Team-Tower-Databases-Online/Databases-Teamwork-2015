@@ -6,7 +6,7 @@
       <Value Profile="(Default)">..\..\..\..\ModelsData\vendors-expenses-initial-data.xml</Value>
     </Setting>
     <Setting Name="ReportDestinationFolderLocation" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">..\..\..\..\Reports\XmlReports\</Value>
+      <Value Profile="(Default)">..\..\..\..\Reports\XML_Reports\</Value>
     </Setting>
     <Setting Name="ReportDestionationFileName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">AllLocationsReport.xml</Value>

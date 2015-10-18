@@ -74,6 +74,7 @@
     <Compile Include="MsSqlReportsFetcher.cs" />
     <Compile Include="PdfReportGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlReportsGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CloudTemple.Excel\CloudTemple.Excel.csproj">

@@ -7,17 +7,21 @@
         private static void Main()
         {
             // TODO: Improve logic by implementing factory design pattern
-            // Problem 1
+            // Preparation
             var dataSeeder = new DataSeeder();
             dataSeeder.Seed();
 
-            // Problem 2
+            // Problem 1
             var excelReportsLoader = new ExcelReportsLoader();
             excelReportsLoader.Load();
 
-            // Problem 3
+            // Problem 2
             var pdfReportGenerator = new PdfReportGenerator();
             pdfReportGenerator.Generate();
+
+            // Problem 3
+            var xmlReportsHandler = new XmlReportsGenerator();
+            xmlReportsHandler.Generate();
         }
     }
 }
