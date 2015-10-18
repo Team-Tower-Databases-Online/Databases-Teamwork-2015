@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="DataSeeder.cs" />
     <Compile Include="ExcelReportsLoader.cs" />
+    <Compile Include="JsonReportsGenerator.cs" />
     <Compile Include="MsSqlReportsFetcher.cs" />
     <Compile Include="PdfReportGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

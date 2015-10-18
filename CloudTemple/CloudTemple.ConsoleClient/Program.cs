@@ -22,6 +22,10 @@
             // Problem 3
             var xmlReportsHandler = new XmlReportsGenerator();
             xmlReportsHandler.Generate();
+
+            // Problem 4
+            var jsonReportsGenerator = new JsonReportsGenerator();
+            jsonReportsGenerator.Generate();
         }
     }
 }
