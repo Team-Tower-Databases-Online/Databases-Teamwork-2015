@@ -25,7 +25,7 @@ namespace CloudTemple.PDF {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("../../../../Reports/PdfReports/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("../../../../Reports/PDF_Reports/")]
         public string ReportsFolderLocation {
             get {
                 return ((string)(this["ReportsFolderLocation"]));

@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ReportsFolderLocation" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">../../../../Reports/PdfReports/</Value>
+      <Value Profile="(Default)">../../../../Reports/PDF_Reports/</Value>
     </Setting>
   </Settings>
 </SettingsFile>
