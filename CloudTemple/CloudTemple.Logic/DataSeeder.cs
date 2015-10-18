@@ -12,11 +12,11 @@
     {
         public void Seed()
         {
-            Console.WriteLine("Seeding mongo data...");
+            Console.WriteLine("Seeding MongoDB data...");
             var mongoDataSeeder = new MongoDataSeeder();
             mongoDataSeeder.Seed();
 
-            Console.WriteLine("Seeding excel data...");
+            Console.WriteLine("Seeding Excel data...");
             var excelZippedDataSeeder = new ExcelZippedDataSeeder();
             excelZippedDataSeeder.Seed(3);
 

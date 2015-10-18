@@ -14,6 +14,10 @@
             // Problem 2
             var excelReportsLoader = new ExcelReportsLoader();
             excelReportsLoader.Load();
+
+            // Problem 3
+            var pdfReportGenerator = new PdfReportGenerator();
+            pdfReportGenerator.Generate();
         }
     }
 }

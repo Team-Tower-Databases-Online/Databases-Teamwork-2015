@@ -37,7 +37,7 @@
 
         public void Load()
         {
-            Console.WriteLine("Adding data to MS SQL...");
+            Console.WriteLine("Adding data to SQL Server...");
 
             if (this.msSqlData.Products.GetById(1) != null)
             {
@@ -54,25 +54,25 @@
 
         private void LoadDataFromMongo()
         {
-            Console.WriteLine("Adding product categories from MongoDb to MS SQL...");
+            Console.WriteLine("Adding product categories from MongoDB to SQL Server...");
             foreach (var category in this.mongoData.GetAllProductCategories())
             {
                 this.msSqlData.ProductCategories.Add(category);
             }
 
-            Console.WriteLine("Adding product details from MongoDb to MS SQL...");
+            Console.WriteLine("Adding product details from MongoDB to SQL Server...");
             foreach (var detail in this.mongoData.GetAllProductDetails())
             {
                 this.msSqlData.ProductDetails.Add(detail);
             }
 
-            Console.WriteLine("Adding vendors from MongoDb to MS SQL...");
+            Console.WriteLine("Adding vendors from MongoDB to SQL Server...");
             foreach (var vendor in this.mongoData.GetAllVendors())
             {
                 this.msSqlData.Vendors.Add(vendor);
             }
 
-            Console.WriteLine("Adding products from MongoDb to MS SQL...");
+            Console.WriteLine("Adding products from MongoDB to SQL Server...");
             foreach (var product in this.mongoData.GetAllProducts())
             {
                 this.msSqlData.Products.Add(product);
@@ -97,7 +97,7 @@
             var dictionaryWithLocations = new Dictionary<string, int>();
             var index = 1;
 
-            Console.WriteLine("Adding purchase locations from Zipped excel reports to MS SQL...");
+            Console.WriteLine("Adding purchase locations from ZIP file with Excel reports to SQL Server...");
             foreach (var location in setOfLocations)
             {
                 this.msSqlData.PurchaseLocations.Add(new PurchaseLocation { Name = location });
@@ -106,7 +106,7 @@
                 index++;
             }
 
-            Console.WriteLine("Adding purchases from Zipped excel reports to MS SQL (be patient)...");
+            Console.WriteLine("Adding purchases from ZIP file with Excel reports to SQL Server (hang tight)...");
             this.excelXlsData.ReadAllPurchases(
                 dictionaryWithLocations,
                 purchase => { this.msSqlData.Purchases.Add(purchase); });

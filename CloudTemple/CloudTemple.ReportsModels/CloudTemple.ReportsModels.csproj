@@ -78,8 +78,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategorySalesReport.cs" />
+    <Compile Include="CategorySalesReportEntry.cs" />
     <Compile Include="LocationReport.cs" />
     <Compile Include="LocationReportEntry.cs" />
+    <Compile Include="ProductsReport.cs" />
+    <Compile Include="ProductsReportEntry.cs" />
     <Compile Include="ProductTax.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
