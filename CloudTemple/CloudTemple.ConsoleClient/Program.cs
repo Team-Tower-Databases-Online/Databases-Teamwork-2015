@@ -4,28 +4,32 @@
 
     internal class Program
     {
+        private static readonly DataSeeder DataSeeder = new DataSeeder();
+        private static readonly ExcelReportsLoader ExcelReportsLoader = new ExcelReportsLoader();
+        private static readonly PdfReportGenerator PdfReportGenerator = new PdfReportGenerator();
+        private static readonly XmlReportsHandler XmlReportsHandler = new XmlReportsHandler();
+        private static readonly JsonReportsGenerator JsonReportsGenerator = new JsonReportsGenerator();
+
         private static void Main()
         {
             // TODO: Improve logic by implementing factory design pattern
             // Preparation
-            var dataSeeder = new DataSeeder();
-            dataSeeder.Seed();
+            DataSeeder.Seed();
 
             // Problem 1
-            var excelReportsLoader = new ExcelReportsLoader();
-            excelReportsLoader.Load();
+            ExcelReportsLoader.Load();
 
             // Problem 2
-            var pdfReportGenerator = new PdfReportGenerator();
-            pdfReportGenerator.Generate();
+            PdfReportGenerator.Generate();
 
             // Problem 3
-            var xmlReportsHandler = new XmlReportsGenerator();
-            xmlReportsHandler.Generate();
+            XmlReportsHandler.Generate();
 
             // Problem 4
-            var jsonReportsGenerator = new JsonReportsGenerator();
-            jsonReportsGenerator.Generate();
+            JsonReportsGenerator.Generate();
+
+            // Problem 5
+            XmlReportsHandler.Save();
         }
     }
 }

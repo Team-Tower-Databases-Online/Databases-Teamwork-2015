@@ -11,7 +11,7 @@
 
     using XML;
 
-    public class XmlReportsGenerator
+    public class XmlReportsHandler
     {
         private readonly IMongoDbData mongoData;
 
@@ -21,12 +21,12 @@
 
         private readonly IXmlData xmlData;
 
-        public XmlReportsGenerator()
+        public XmlReportsHandler()
             : this(new XmlData(), new SqlServerData(), new MongoDbData())
         {
         }
 
-        public XmlReportsGenerator(
+        public XmlReportsHandler(
             IXmlData xmlDataToUse,
             ISqlServerData msSqlDataToUse,
             IMongoDbData mongoDbDataToUse)
