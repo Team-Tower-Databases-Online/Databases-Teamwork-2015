@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.Logic", "CloudT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.ReportsModels", "CloudTemple.ReportsModels\CloudTemple.ReportsModels.csproj", "{D20B395D-C69B-4B17-9522-3207F03D19CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTemple.SQLServer", "CloudTemple.SQLServer\CloudTemple.SQLServer.csproj", "{B9C24622-92C2-48BB-99CB-F54B022691C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D20B395D-C69B-4B17-9522-3207F03D19CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C24622-92C2-48BB-99CB-F54B022691C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C24622-92C2-48BB-99CB-F54B022691C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C24622-92C2-48BB-99CB-F54B022691C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C24622-92C2-48BB-99CB-F54B022691C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

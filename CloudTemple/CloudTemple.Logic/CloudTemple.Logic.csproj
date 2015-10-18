@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataSeeder.cs" />
+    <Compile Include="ExcelReportsLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -77,13 +78,41 @@
       <Project>{309986ed-bd94-48dd-aa29-f8ec47d88cfa}</Project>
       <Name>CloudTemple.Excel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.JSON\CloudTemple.JSON.csproj">
+      <Project>{b03022e5-0e8a-4307-a7f7-c3b95c46343b}</Project>
+      <Name>CloudTemple.JSON</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.Models\CloudTemple.Models.csproj">
+      <Project>{434bedee-ab0f-4c8b-b9ad-c883260e6ba4}</Project>
+      <Name>CloudTemple.Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CloudTemple.MongoDB\CloudTemple.MongoDB.csproj">
       <Project>{e88dcc92-bc6b-49e0-9568-486458e82aeb}</Project>
       <Name>CloudTemple.MongoDB</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.MySQL\CloudTemple.MySQL.csproj">
+      <Project>{8116ae2d-204d-4c71-a64d-9741ee2e9ed2}</Project>
+      <Name>CloudTemple.MySQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.PDF\CloudTemple.PDF.csproj">
+      <Project>{89d9030c-f32d-442f-9dc9-634ca56d95d5}</Project>
+      <Name>CloudTemple.PDF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.ReportsModels\CloudTemple.ReportsModels.csproj">
+      <Project>{d20b395d-c69b-4b17-9522-3207f03d19ce}</Project>
+      <Name>CloudTemple.ReportsModels</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CloudTemple.SQLite\CloudTemple.SQLite.csproj">
       <Project>{3357f60f-b270-4b18-a7fe-cefd16a9aaa9}</Project>
       <Name>CloudTemple.SQLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.SQLServer\CloudTemple.SQLServer.csproj">
+      <Project>{b9c24622-92c2-48bb-99cb-f54b022691c7}</Project>
+      <Name>CloudTemple.SQLServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.XML\CloudTemple.XML.csproj">
+      <Project>{d7a8bd18-8e28-4a29-8755-7e004ae97c6b}</Project>
+      <Name>CloudTemple.XML</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

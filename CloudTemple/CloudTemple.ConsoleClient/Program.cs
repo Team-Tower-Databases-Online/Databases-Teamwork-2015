@@ -10,6 +10,10 @@
             // Problem 1
             var dataSeeder = new DataSeeder();
             dataSeeder.Seed();
+
+            // Problem 2
+            var excelReportsLoader = new ExcelReportsLoader();
+            excelReportsLoader.Load();
         }
     }
 }

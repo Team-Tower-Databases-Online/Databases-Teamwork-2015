@@ -98,8 +98,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>ExcelSettings.settings</DependentUpon>
     </Compile>
+    <Compile Include="ExcelXlsData.cs" />
     <Compile Include="ExcelXlsHandler.cs" />
     <Compile Include="ExcelZippedDataSeeder.cs" />
+    <Compile Include="IExcelXlsData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +116,10 @@
     <ProjectReference Include="..\CloudTemple.Common\CloudTemple.Common.csproj">
       <Project>{f998a020-d112-46f2-950a-e4f1e8a02048}</Project>
       <Name>CloudTemple.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CloudTemple.Models\CloudTemple.Models.csproj">
+      <Project>{434bedee-ab0f-4c8b-b9ad-c883260e6ba4}</Project>
+      <Name>CloudTemple.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
