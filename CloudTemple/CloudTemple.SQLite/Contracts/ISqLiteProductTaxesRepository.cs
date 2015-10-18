@@ -1,4 +1,4 @@
-﻿namespace CloudTemple.SQLite
+﻿namespace CloudTemple.SQLite.Contracts
 {
     using System.Linq;
 

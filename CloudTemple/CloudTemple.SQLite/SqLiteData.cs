@@ -2,6 +2,8 @@
 {
     using System.Collections.Generic;
 
+    using Contracts;
+
     using ReportsModels;
 
     public class SqLiteData : ISqLiteData

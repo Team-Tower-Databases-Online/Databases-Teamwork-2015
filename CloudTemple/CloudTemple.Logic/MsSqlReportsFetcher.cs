@@ -9,6 +9,7 @@
     using ReportsModels;
 
     using SQLServer;
+    using SQLServer.Contracts;
 
     public class MsSqlReportsFetcher
     {

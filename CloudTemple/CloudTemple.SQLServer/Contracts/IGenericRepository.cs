@@ -1,4 +1,4 @@
-﻿namespace CloudTemple.SQLServer.Repositories
+﻿namespace CloudTemple.SQLServer.Contracts
 {
     using System;
     using System.Linq;

@@ -92,9 +92,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ISqLiteData.cs" />
-    <Compile Include="ISqLiteDbContext.cs" />
-    <Compile Include="ISqLiteProductTaxesRepository.cs" />
+    <Compile Include="Contracts\ISqLiteData.cs" />
+    <Compile Include="Contracts\ISqLiteDbContext.cs" />
+    <Compile Include="Contracts\ISqLiteProductTaxesRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqLiteData.cs" />
     <Compile Include="SqLiteDataSeeder.cs" />

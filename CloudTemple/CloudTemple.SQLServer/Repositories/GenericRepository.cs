@@ -5,6 +5,8 @@
     using System.Linq;
     using System.Linq.Expressions;
 
+    using Contracts;
+
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly ISqlServerDbContext context;

@@ -2,6 +2,8 @@
 {
     using System.Linq;
 
+    using Contracts;
+
     using ReportsModels;
 
     public class SqLiteProductTaxesRepository : ISqLiteProductTaxesRepository

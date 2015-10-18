@@ -1,8 +1,6 @@
-﻿namespace CloudTemple.SQLServer
+﻿namespace CloudTemple.SQLServer.Contracts
 {
     using Models;
-
-    using Repositories;
 
     public interface ISqlServerData
     {

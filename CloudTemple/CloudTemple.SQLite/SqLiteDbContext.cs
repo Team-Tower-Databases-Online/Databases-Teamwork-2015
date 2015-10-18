@@ -2,6 +2,8 @@
 {
     using System.Data.Entity;
 
+    using Contracts;
+
     using ReportsModels;
 
     public class SqLiteDbContext : DbContext, ISqLiteDbContext

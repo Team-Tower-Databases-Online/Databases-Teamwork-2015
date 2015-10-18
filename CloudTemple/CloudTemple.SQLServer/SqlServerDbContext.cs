@@ -2,6 +2,8 @@
 {
     using System.Data.Entity;
 
+    using Contracts;
+
     using Migrations;
 
     using Models;

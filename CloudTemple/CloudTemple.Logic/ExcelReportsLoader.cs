@@ -11,6 +11,7 @@
     using MongoDB.Contracts;
 
     using SQLServer;
+    using SQLServer.Contracts;
 
     public class ExcelReportsLoader
     {

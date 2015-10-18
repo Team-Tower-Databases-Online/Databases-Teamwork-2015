@@ -1,4 +1,4 @@
-﻿namespace CloudTemple.SQLServer
+﻿namespace CloudTemple.SQLServer.Contracts
 {
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
