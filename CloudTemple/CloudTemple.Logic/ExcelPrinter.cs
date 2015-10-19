@@ -9,6 +9,7 @@ using System.Data.SQLite;
 using System.Runtime.InteropServices;
 using SQL = System.Data;
 using Microsoft.Office.Interop.Excel;
+using System.IO;
 
 namespace CloudTemple.Excel
 {
@@ -21,13 +22,15 @@ namespace CloudTemple.Excel
         }
         public void GenrateExcel()
         {
+            //TODO: Fix Source strings
+            Console.WriteLine("Generating Excell Report...");
             SQLiteConnection con;
-            con = new SQLiteConnection("Data Source = C:\\SqLiteDb.sqlite; Version=3;");
+            con = new SQLiteConnection(@"Data Source = C:\Users\Miro\Documents\GitHub\Databases-Teamwork-2015\DataSources\SqLiteDb.sqlite; Version=3;");
             con.Open();
             string sql = "SELECT * FROM ProductTaxes";
             SQLiteCommand command = new SQLiteCommand(sql, con);
             SQLiteDataReader reader = command.ExecuteReader();
-            
+
             Application application;
             Workbook workBook;
             Worksheet workSheet;
@@ -44,10 +47,10 @@ namespace CloudTemple.Excel
                 workSheet.Cells[1, "A"] = "ProductName";
                 workSheet.Cells[1, "B"] = "Amount";
 
-                    int row = 2;
+                int row = 2;
                 while (reader.Read())
                 {
-                   
+
 
                     workSheet.Cells[row, "A"] = reader["ProductName"];
                     workSheet.Cells[row, "B"] = reader["Amount"];
@@ -56,7 +59,7 @@ namespace CloudTemple.Excel
                     application.Visible = false;
                     application.UserControl = false;
 
-                    
+
                 }
                 workBook.SaveAs(@"C:\Users\Miro\Documents\GitHub\Databases-Teamwork-2015\Reports\Excel_Reports\ExcelReportNumer");
                 workSheet.Columns[1].AutoFit();
