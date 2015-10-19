@@ -1,6 +1,7 @@
 ﻿namespace CloudTemple.MongoDB.Mappings
 {
     using System;
+
     using global::MongoDB.Bson;
     using global::MongoDB.Bson.Serialization.Attributes;
 

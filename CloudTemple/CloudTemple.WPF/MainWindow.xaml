@@ -4,14 +4,22 @@
         Background="LightSteelBlue"
         Title="CloudTemple" Height="400" Width="525">
     <Grid>
-        <Image Source="Resources/tower.png" Margin="0,0,0.4,0.4"></Image>
-        <Button Background="Chartreuse" Content="Open Folder" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="325,340,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Background="Chartreuse" Content="Seed Data" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="145,340,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Background="Chartreuse" Content="Generate PDF Report" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button Background="Chartreuse" Content="Generate XML Report" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="192,25,0,0" VerticalAlignment="Top" Width="123"/>
-        <Button Background="Chartreuse" Content="Generate JSON Report" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="375,25,0,0" VerticalAlignment="Top" Width="133"/>
-        <Button Background="Chartreuse" Content="Import Data in SQL Server" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" Width="154"/>
-        <Button Background="Chartreuse" Content="Import Data in MySQL" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="206,316,0,0" VerticalAlignment="Top" Width="133"/>
-        <Button Background="Chartreuse" Content="Load Data from XML" FontWeight="Bold" FontStyle="Italic" HorizontalAlignment="Left" Margin="386,316,0,0" VerticalAlignment="Top" Width="122"/>
+        <Image Source="Resources/tower.png" Margin="0,0,0.4,0.4" />
+        <Button Background="Chartreuse" Content="Open Folder" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="325,340,0,0" VerticalAlignment="Top" Width="75" />
+        <Button Background="Chartreuse" Content="Seed Data" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="145,340,0,0" VerticalAlignment="Top" Width="75" />
+        <Button Background="Chartreuse" Content="Generate PDF Report" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Width="123" />
+        <Button Background="Chartreuse" Content="Generate XML Report" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="192,25,0,0" VerticalAlignment="Top" Width="123" />
+        <Button Background="Chartreuse" Content="Generate JSON Report" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="375,25,0,0" VerticalAlignment="Top" Width="133" />
+        <Button Background="Chartreuse" Content="Import Data in SQL Server" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="10,316,0,0" VerticalAlignment="Top" Width="154" />
+        <Button Background="Chartreuse" Content="Import Data in MySQL" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="206,316,0,0" VerticalAlignment="Top" Width="133" />
+        <Button Background="Chartreuse" Content="Load Data from XML" FontWeight="Bold" FontStyle="Italic"
+                HorizontalAlignment="Left" Margin="386,316,0,0" VerticalAlignment="Top" Width="122" />
     </Grid>
 </Window>

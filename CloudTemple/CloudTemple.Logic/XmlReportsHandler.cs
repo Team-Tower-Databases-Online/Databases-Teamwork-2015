@@ -26,10 +26,7 @@
         {
         }
 
-        public XmlReportsHandler(
-            IXmlData xmlDataToUse,
-            ISqlServerData msSqlDataToUse,
-            IMongoDbData mongoDbDataToUse)
+        public XmlReportsHandler(IXmlData xmlDataToUse, ISqlServerData msSqlDataToUse, IMongoDbData mongoDbDataToUse)
         {
             this.xmlData = xmlDataToUse;
             this.msSqlData = msSqlDataToUse;

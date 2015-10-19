@@ -34,13 +34,13 @@
                     .Select(
                         gr =>
                         new ProductsReportEntry
-                        {
-                            Name = gr.Min(p => p.Product.Name),
-                            Price = gr.Average(p => p.UnitPrice),
-                            ProductId = gr.Key,
-                            Quantity = gr.Sum(g => g.Quantity),
-                            Vendor = gr.Min(p => p.Product.Vendor.Name)
-                        });
+                            {
+                                Name = gr.Min(p => p.Product.Name),
+                                Price = gr.Average(p => p.UnitPrice),
+                                ProductId = gr.Key,
+                                Quantity = gr.Sum(g => g.Quantity),
+                                Vendor = gr.Min(p => p.Product.Vendor.Name)
+                            });
         }
 
         public ProductsReport GetAllProductsReportForDate(DateTime date)
@@ -52,13 +52,13 @@
                     .Select(
                         gr =>
                         new ProductsReportEntry
-                        {
-                            Name = gr.Key,
-                            Price = gr.Average(purchase => purchase.UnitPrice),
-                            ProductId = gr.Min(purchase => purchase.ProductId),
-                            Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
-                            Quantity = gr.Sum(p => p.Quantity)
-                        });
+                            {
+                                Name = gr.Key,
+                                Price = gr.Average(purchase => purchase.UnitPrice),
+                                ProductId = gr.Min(purchase => purchase.ProductId),
+                                Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
+                                Quantity = gr.Sum(p => p.Quantity)
+                            });
 
             return new ProductsReport { Date = date, Products = allProductInformations };
         }
@@ -82,25 +82,25 @@
                     .Select(
                         gr =>
                         new ProductsReport
-                        {
-                            Products =
+                            {
+                                Products =
                                     gr.Select(
                                         g =>
                                         new ProductsReportEntry
-                                        {
-                                            Name = productName,
-                                            Price = g.UnitPrice,
-                                            Quantity = g.Quantity,
-                                            Location = g.Location.Name,
-                                            ProductId =
+                                            {
+                                                Name = productName,
+                                                Price = g.UnitPrice,
+                                                Quantity = g.Quantity,
+                                                Location = g.Location.Name,
+                                                ProductId =
                                                     gr.Min(
                                                         purchase => purchase.ProductId),
-                                            Vendor =
+                                                Vendor =
                                                     gr.Min(
                                                         purchase =>
                                                         purchase.Product.Vendor.Name)
-                                        })
-                        });
+                                            })
+                            });
         }
 
         public ProductsReport GetLocationReportForDate(PurchaseLocation location, DateTime date)
@@ -123,14 +123,14 @@
                     .Select(
                         gr =>
                         new ProductsReportEntry
-                        {
-                            Name = gr.Key,
-                            Price = gr.Average(purchase => purchase.UnitPrice),
-                            Quantity = gr.Sum(g => g.Quantity),
-                            ProductId = gr.Min(purchase => purchase.ProductId),
-                            Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
-                            Location = locationName
-                        });
+                            {
+                                Name = gr.Key,
+                                Price = gr.Average(purchase => purchase.UnitPrice),
+                                Quantity = gr.Sum(g => g.Quantity),
+                                ProductId = gr.Min(purchase => purchase.ProductId),
+                                Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
+                                Location = locationName
+                            });
 
             return new ProductsReport { Date = date, Products = allProductInformations };
         }
@@ -154,14 +154,14 @@
                     .Select(
                         gr =>
                         new ProductsReportEntry
-                        {
-                            Name = gr.Key,
-                            Price = gr.Average(purchase => purchase.UnitPrice),
-                            Quantity = gr.Sum(g => g.Quantity),
-                            ProductId = gr.Min(purchase => purchase.ProductId),
-                            Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
-                            Location = locationName
-                        });
+                            {
+                                Name = gr.Key,
+                                Price = gr.Average(purchase => purchase.UnitPrice),
+                                Quantity = gr.Sum(g => g.Quantity),
+                                ProductId = gr.Min(purchase => purchase.ProductId),
+                                Vendor = gr.Min(purchase => purchase.Product.Vendor.Name),
+                                Location = locationName
+                            });
 
             return new ProductsReport { Products = allProductInformations };
         }
@@ -174,20 +174,20 @@
                     .Select(
                         gr =>
                         new LocationReport
-                        {
-                            LocationName = gr.Key,
-                            Entries =
+                            {
+                                LocationName = gr.Key,
+                                Entries =
                                     gr.GroupBy(g => g.Date)
                                       .Select(
                                           group =>
                                           new LocationReportEntry
-                                          {
-                                              Date = group.Key,
-                                              TotalSum =
+                                              {
+                                                  Date = group.Key,
+                                                  TotalSum =
                                                       group.Sum(
                                                           g => g.Quantity * g.UnitPrice)
-                                          })
-                        });
+                                              })
+                            });
         }
 
         public CategorySalesReport GetSalesByCategory()
@@ -198,12 +198,12 @@
                     .Select(
                         gr =>
                         new CategorySalesReportEntry
-                        {
-                            Category =
+                            {
+                                Category =
                                     gr.Select(p => p.Product.Category.Name).FirstOrDefault(),
-                            Quantity = gr.Sum(p => p.Quantity),
-                            TotalAmountSold = gr.Sum(p => p.Quantity * p.UnitPrice)
-                        });
+                                Quantity = gr.Sum(p => p.Quantity),
+                                TotalAmountSold = gr.Sum(p => p.Quantity * p.UnitPrice)
+                            });
 
             var resultReport = new CategorySalesReport { Report = entries };
             return resultReport;

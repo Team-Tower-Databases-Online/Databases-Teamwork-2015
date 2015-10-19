@@ -3,9 +3,13 @@
     public enum ProductMeasureUnit
     {
         Pieces,
+
         Bars,
+
         Character,
+
         Points,
+
         Stacks
     }
 }

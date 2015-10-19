@@ -79,23 +79,26 @@
                                         out parsedAmmount))
                                 {
                                     throw new FormatException(
-                                        "Unable to parse expenses ammount in" + XmlSettings.Default.InitialXmlFileLocation
-                                        + "! Parse string: " + expense.InnerText);
+                                        "Unable to parse expenses ammount in"
+                                        + XmlSettings.Default.InitialXmlFileLocation + "! Parse string: "
+                                        + expense.InnerText);
                                 }
 
                                 vendorExpense.Ammount = parsedAmmount;
 
                                 var parsedDate = new DateTime();
-                                if (!DateTime.TryParseExact(
-                                    expense.Attributes.GetNamedItem("month").Value,
-                                    "MMM-yyyy",
-                                    CultureInfo.InvariantCulture,
-                                    DateTimeStyles.None,
-                                    out parsedDate))
+                                if (
+                                    !DateTime.TryParseExact(
+                                        expense.Attributes.GetNamedItem("month").Value,
+                                        "MMM-yyyy",
+                                        CultureInfo.InvariantCulture,
+                                        DateTimeStyles.None,
+                                        out parsedDate))
                                 {
                                     throw new FormatException(
-                                        "Unable to parse date from expenses entry in" + XmlSettings.Default.InitialXmlFileLocation +
-                                        "! Parse string: " + expense.Attributes.GetNamedItem("month").Value);
+                                        "Unable to parse date from expenses entry in"
+                                        + XmlSettings.Default.InitialXmlFileLocation + "! Parse string: "
+                                        + expense.Attributes.GetNamedItem("month").Value);
                                 }
 
                                 vendorExpense.Date = parsedDate;

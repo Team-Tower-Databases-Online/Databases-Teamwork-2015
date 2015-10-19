@@ -73,6 +73,7 @@
     <Compile Include="ExcelReportsLoader.cs" />
     <Compile Include="JsonReportsGenerator.cs" />
     <Compile Include="MsSqlReportsFetcher.cs" />
+    <Compile Include="MySqlReportSaver.cs" />
     <Compile Include="PdfReportGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlReportsHandler.cs" />
@@ -95,7 +96,7 @@
       <Name>CloudTemple.MongoDB</Name>
     </ProjectReference>
     <ProjectReference Include="..\CloudTemple.MySQL\CloudTemple.MySQL.csproj">
-      <Project>{8116ae2d-204d-4c71-a64d-9741ee2e9ed2}</Project>
+      <Project>{35b0e7aa-0b5a-4074-be92-1709158425b2}</Project>
       <Name>CloudTemple.MySQL</Name>
     </ProjectReference>
     <ProjectReference Include="..\CloudTemple.PDF\CloudTemple.PDF.csproj">
@@ -120,6 +121,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

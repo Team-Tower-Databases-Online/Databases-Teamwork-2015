@@ -21,17 +21,17 @@
             this.ReadAllPurchases(
                 ExcelSettings.Default.OutputZipFileLocation,
                 (productId, quantity, unitPrice, locationName, date) =>
-                {
-                    action(
-                        new Purchase
-                        {
-                            ProductId = productId,
-                            Quantity = quantity,
-                            UnitPrice = unitPrice,
-                            LocationId = locationsMapping[locationName],
-                            Date = date
-                        });
-                });
+                    {
+                        action(
+                            new Purchase
+                                {
+                                    ProductId = productId,
+                                    Quantity = quantity,
+                                    UnitPrice = unitPrice,
+                                    LocationId = locationsMapping[locationName],
+                                    Date = date
+                                });
+                    });
         }
 
         public void ReadAllPurchases(string zipFileLocation, Action<int, int, decimal, string, DateTime> action)
@@ -61,17 +61,17 @@
                         excelXlsHander.ReadExcelSheet(
                             file,
                             row =>
-                            {
-                                if (row[0] != DBNull.Value)
                                 {
-                                    action(
-                                        (int)(double)row[0],
-                                        (int)(double)row[1],
-                                        (decimal)(double)row[2],
-                                        locationName,
-                                        date);
-                                }
-                            });
+                                    if (row[0] != DBNull.Value)
+                                    {
+                                        action(
+                                            (int)(double)row[0],
+                                            (int)(double)row[1],
+                                            (decimal)(double)row[2],
+                                            locationName,
+                                            date);
+                                    }
+                                });
                     }
                 }
             }

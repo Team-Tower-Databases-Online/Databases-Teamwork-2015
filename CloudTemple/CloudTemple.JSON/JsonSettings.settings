@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CloudTemple.JSON" GeneratedClassName="JsonSettings">
+
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)"
+              GeneratedClassNamespace="CloudTemple.JSON" GeneratedClassName="JsonSettings">
   <Profiles />
   <Settings>
     <Setting Name="ReportsDestinationFolder" Type="System.String" Scope="Application">

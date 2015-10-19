@@ -25,14 +25,14 @@
             excelHander.ReadInitialDataFile(
                 "Products$",
                 product =>
-                {
-                    data.AddProductTax(
-                        new ProductTax
-                        {
-                            ProductName = product["Product Name"].ToString(),
-                            Amount = Random.NextDouble() * Random.Next(100, 200)
-                        });
-                });
+                    {
+                        data.AddProductTax(
+                            new ProductTax
+                                {
+                                    ProductName = product["Product Name"].ToString(),
+                                    Amount = Random.NextDouble() * Random.Next(100, 200)
+                                });
+                    });
 
             data.SaveChanges();
         }

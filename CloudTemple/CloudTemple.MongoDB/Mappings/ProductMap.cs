@@ -6,8 +6,16 @@
     public class ProductMap
     {
         [BsonConstructor]
-        public ProductMap(int productId, string productName, string dimensions, double weight, int productTypeId,
-            string shortDescription, int manufacturerId, int releaseYear, double price)
+        public ProductMap(
+            int productId,
+            string productName,
+            string dimensions,
+            double weight,
+            int productTypeId,
+            string shortDescription,
+            int manufacturerId,
+            int releaseYear,
+            double price)
         {
             this.ProductId = productId;
             this.ProductName = productName;

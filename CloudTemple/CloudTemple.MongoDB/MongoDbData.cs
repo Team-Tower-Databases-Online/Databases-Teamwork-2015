@@ -28,7 +28,9 @@
         public ICollection<ProductCategory> GetAllProductCategories()
         {
             var allProductCategories = new List<ProductCategory>();
-            this.mongoHandler.Value.ReadCollection<ProductCategory>("ProductCategories", pc => allProductCategories.Add(pc));
+            this.mongoHandler.Value.ReadCollection<ProductCategory>(
+                "ProductCategories",
+                pc => allProductCategories.Add(pc));
             return allProductCategories;
         }
 

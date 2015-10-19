@@ -86,14 +86,14 @@
 
             this.excelXlsData.ReadAllPurchases(
                 (productId, quantity, unitPrice, locationName, date) =>
-                {
-                    if (setOfLocations.Contains(locationName))
                     {
-                        return;
-                    }
+                        if (setOfLocations.Contains(locationName))
+                        {
+                            return;
+                        }
 
-                    setOfLocations.Add(locationName);
-                });
+                        setOfLocations.Add(locationName);
+                    });
 
             var dictionaryWithLocations = new Dictionary<string, int>();
             var index = 1;

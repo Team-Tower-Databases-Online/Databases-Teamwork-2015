@@ -25,14 +25,14 @@
                 writer.Write(
                     JsonConvert.SerializeObject(
                         new
-                        {
-                            id = productReport.ProductId,
-                            name = productReport.Name,
-                            vendor = productReport.Vendor,
-                            price = productReport.Price,
-                            quantity = productReport.Quantity,
-                            total = productReport.Total
-                        }));
+                            {
+                                id = productReport.ProductId,
+                                name = productReport.Name,
+                                vendor = productReport.Vendor,
+                                price = productReport.Price,
+                                quantity = productReport.Quantity,
+                                total = productReport.Total
+                            }));
             }
         }
     }

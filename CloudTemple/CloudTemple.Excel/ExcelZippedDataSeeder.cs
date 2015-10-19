@@ -46,7 +46,9 @@
         private void GenerateZipFile()
         {
             var zip = new ZipFileHandler();
-            zip.ZipFolder(ExcelSettings.Default.SalesReportsDestinationFolder, ExcelSettings.Default.OutputZipFileLocation);
+            zip.ZipFolder(
+                ExcelSettings.Default.SalesReportsDestinationFolder,
+                ExcelSettings.Default.OutputZipFileLocation);
         }
 
         private void GenerateAllFolders(string destinationPath, int numberOfRecords)
@@ -123,8 +125,8 @@
             }
 
             var characterIndex = this.random.Next(27, 34);
-            var characterPrice = Math.Round(
-                this.productsWithPrices[characterIndex] * (1 + this.random.Next(5, 25) / 100.0), 2);
+            var characterPrice =
+                Math.Round(this.productsWithPrices[characterIndex] * (1 + this.random.Next(5, 25) / 100.0), 2);
             excel.Row().Cell(characterIndex).Cell(1).Cell(characterPrice).Cell(characterPrice);
             totalSum += characterPrice;
 

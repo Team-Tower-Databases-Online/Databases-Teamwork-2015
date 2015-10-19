@@ -57,16 +57,16 @@
         private Document CreateDocument(string filename)
         {
             var theDocument = new Document
-            {
-                Info =
-                {
-                    Title = filename,
-                    Author = "Telerik Tower DB Team",
-                    Subject = "This is the description of the document",
-                    Keywords = "Tower, CloudTemple, Giants, Heroes III, Naggas, Maggies"
-                }
-            };
-
+                                  {
+                                      Info =
+                                          {
+                                              Title = filename,
+                                              Author = "Telerik Tower DB Team",
+                                              Subject = "This is the description of the document",
+                                              Keywords =
+                                                  "Tower, CloudTemple, Giants, Heroes III, Naggas, Maggies"
+                                          }
+                                  };
 
             return theDocument;
         }

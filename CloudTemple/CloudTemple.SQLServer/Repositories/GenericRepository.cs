@@ -7,7 +7,8 @@
 
     using Contracts;
 
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T>
+        where T : class
     {
         private readonly ISqlServerDbContext context;
 

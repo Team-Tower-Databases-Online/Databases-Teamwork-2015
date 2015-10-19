@@ -33,10 +33,12 @@
         {
             // Create server settings to pass connection string, timeout, etc.
             var settings = new MongoServerSettings
-            {
-                Server = new MongoServerAddress(
-                    MongoDbSettings.Default.MongoDbAddress, int.Parse(MongoDbSettings.Default.MongoDbPort))
-            };
+                               {
+                                   Server =
+                                       new MongoServerAddress(
+                                       MongoDbSettings.Default.MongoDbAddress,
+                                       int.Parse(MongoDbSettings.Default.MongoDbPort))
+                               };
 
             // Create server object to communicate with our server
             var server = new MongoServer(settings);

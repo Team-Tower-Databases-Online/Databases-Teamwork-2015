@@ -7,6 +7,7 @@
     public class MongoDbContext
     {
         private readonly string connectionString;
+
         private readonly string databaseName;
 
         public MongoDbContext()
@@ -20,23 +21,17 @@
             this.databaseName = databaseName;
         }
 
-        public MongoCollection<CountryMap> Countries
-            => this.GetCollection<CountryMap>("Countries");
+        public MongoCollection<CountryMap> Countries => this.GetCollection<CountryMap>("Countries");
 
-        public MongoCollection<CityMap> Cities
-            => this.GetCollection<CityMap>("Cities");
+        public MongoCollection<CityMap> Cities => this.GetCollection<CityMap>("Cities");
 
-        public MongoCollection<AddressMap> Addresses
-            => this.GetCollection<AddressMap>("Addresses");
+        public MongoCollection<AddressMap> Addresses => this.GetCollection<AddressMap>("Addresses");
 
-        public MongoCollection<ProductMap> Products
-            => this.GetCollection<ProductMap>("Products");
+        public MongoCollection<ProductMap> Products => this.GetCollection<ProductMap>("Products");
 
-        public MongoCollection<ProductTypeMap> ProductTypes
-            => this.GetCollection<ProductTypeMap>("ProductTypes");
+        public MongoCollection<ProductTypeMap> ProductTypes => this.GetCollection<ProductTypeMap>("ProductTypes");
 
-        public MongoCollection<ManufacturerMap> Manufacturers
-            => this.GetCollection<ManufacturerMap>("Manufacturers");
+        public MongoCollection<ManufacturerMap> Manufacturers => this.GetCollection<ManufacturerMap>("Manufacturers");
 
         public MongoCollection<ManufacturerExpenseMap> ManufacturerExpenses
             => this.GetCollection<ManufacturerExpenseMap>("ManufacturerExpenses");

@@ -1,6 +1,7 @@
 ﻿namespace CloudTemple.MongoDB.Contracts
 {
     using global::MongoDB.Driver;
+
     using Mappings;
 
     public interface IMongoDbContext

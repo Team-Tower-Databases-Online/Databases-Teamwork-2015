@@ -2,7 +2,7 @@ namespace CloudTemple.SQLServer.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CloudTemple.SQLServer.SqlServerDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<SqlServerDbContext>
     {
         public Configuration()
         {
@@ -10,7 +10,7 @@ namespace CloudTemple.SQLServer.Migrations
             this.AutomaticMigrationDataLossAllowed = false;
         }
 
-        protected override void Seed(CloudTemple.SQLServer.SqlServerDbContext context)
+        protected override void Seed(SqlServerDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

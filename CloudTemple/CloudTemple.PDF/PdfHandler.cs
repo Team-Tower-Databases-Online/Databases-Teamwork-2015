@@ -24,32 +24,32 @@
         public void GenerateProductInfoForLocations(IEnumerable<ProductsReport> reports)
         {
             var reportsAsOne = new ProductsReport
-            {
-                Products =
+                                   {
+                                       Products =
                                            reports.Select(
                                                x =>
                                                new ProductsReportEntry
-                                               {
-                                                   Location =
+                                                   {
+                                                       Location =
                                                            x.Products.Min(
                                                                p => p.Location),
-                                                   Name =
+                                                       Name =
                                                            x.Products.Min(
                                                                p => p.Name),
-                                                   Price =
+                                                       Price =
                                                            x.Products.Min(
                                                                p => p.Price),
-                                                   ProductId =
+                                                       ProductId =
                                                            x.Products.Min(
                                                                p => p.ProductId),
-                                                   Vendor =
+                                                       Vendor =
                                                            x.Products.Min(
                                                                p => p.Vendor),
-                                                   Quantity =
+                                                       Quantity =
                                                            x.Products.Sum(
                                                                p => p.Quantity)
-                                               })
-            };
+                                                   })
+                                   };
 
             this.pdfWriter.Value.GenerateReport(
                 reportsAsOne,
