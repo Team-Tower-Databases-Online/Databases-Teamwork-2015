@@ -23,9 +23,9 @@
 
 ## Contributors
 
-* Lyudmil Nikodimov ([@lnikod4s](https://github.com/lnikod4s))
-* Niya Keranova ([@NayaIT](https://github.com/NayaIT))
-* Stanimir Daskalov ([@S.Daskalov](https://github.com/SDaskalov))
+* __lnikod4s__ - Lyudmil Nikodimov ([@lnikod4s](https://github.com/lnikod4s))
+* __Наъата__ - Niya Keranova ([@NayaIT](https://github.com/NayaIT))
+* __S.Daskalov__ - Stanimir Daskalov ([@S.Daskalov](https://github.com/SDaskalov))
 
 ## Installed Nuget Packages
 * DocumentFormat.OpenXml.2.5
