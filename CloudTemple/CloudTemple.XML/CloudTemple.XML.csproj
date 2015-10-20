@@ -69,7 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IXmlData.cs" />
+    <Compile Include="Contracts\IXmlData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlData.cs" />
     <Compile Include="XmlSettings.Designer.cs">

@@ -106,7 +106,7 @@
     <Compile Include="ExcelXlsHandler.cs" />
     <Compile Include="ExcelXlsxHandler.cs" />
     <Compile Include="ExcelZippedDataSeeder.cs" />
-    <Compile Include="IExcelXlsData.cs" />
+    <Compile Include="Contracts\IExcelXlsData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

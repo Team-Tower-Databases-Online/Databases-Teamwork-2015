@@ -1,4 +1,4 @@
-﻿namespace CloudTemple.Excel
+﻿namespace CloudTemple.Excel.Contracts
 {
     using System;
     using System.Collections.Generic;

@@ -7,6 +7,8 @@
 
     using Common;
 
+    using Contracts;
+
     using Models;
 
     public class ExcelXlsData : IExcelXlsData
@@ -24,13 +26,13 @@
                     {
                         action(
                             new Purchase
-                                {
-                                    ProductId = productId,
-                                    Quantity = quantity,
-                                    UnitPrice = unitPrice,
-                                    LocationId = locationsMapping[locationName],
-                                    Date = date
-                                });
+                            {
+                                ProductId = productId,
+                                Quantity = quantity,
+                                UnitPrice = unitPrice,
+                                LocationId = locationsMapping[locationName],
+                                Date = date
+                            });
                     });
         }
 

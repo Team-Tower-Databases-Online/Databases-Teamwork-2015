@@ -4,6 +4,7 @@
     using System.Collections.Generic;
 
     using Excel;
+    using Excel.Contracts;
 
     using Models;
 

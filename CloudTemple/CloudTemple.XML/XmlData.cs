@@ -6,6 +6,8 @@
     using System.IO;
     using System.Xml;
 
+    using Contracts;
+
     using Models;
 
     using ReportsModels;

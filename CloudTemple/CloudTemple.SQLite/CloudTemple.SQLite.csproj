@@ -99,7 +99,7 @@
     <Compile Include="SqLiteData.cs" />
     <Compile Include="SqLiteDataSeeder.cs" />
     <Compile Include="SqLiteDbContext.cs" />
-    <Compile Include="SqLiteProductTaxesRepository.cs" />
+    <Compile Include="Repositories\SqLiteProductTaxesRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CloudTemple.Excel\CloudTemple.Excel.csproj">

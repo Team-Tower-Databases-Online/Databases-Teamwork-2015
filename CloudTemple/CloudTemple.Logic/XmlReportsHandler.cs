@@ -10,6 +10,7 @@
     using SQLServer.Contracts;
 
     using XML;
+    using XML.Contracts;
 
     public class XmlReportsHandler
     {

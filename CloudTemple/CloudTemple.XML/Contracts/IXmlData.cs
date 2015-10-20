@@ -1,4 +1,4 @@
-﻿namespace CloudTemple.XML
+﻿namespace CloudTemple.XML.Contracts
 {
     using System.Collections.Generic;
 

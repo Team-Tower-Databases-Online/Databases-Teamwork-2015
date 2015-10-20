@@ -6,6 +6,8 @@
 
     using ReportsModels;
 
+    using Repositories;
+
     public class SqLiteData : ISqLiteData
     {
         private readonly ISqLiteProductTaxesRepository productTaxesRepository;
