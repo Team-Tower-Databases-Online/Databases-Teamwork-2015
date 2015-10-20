@@ -80,6 +80,8 @@
   <ItemGroup>
     <Compile Include="CategorySalesReport.cs" />
     <Compile Include="CategorySalesReportEntry.cs" />
+    <Compile Include="FinancialResultReport.cs" />
+    <Compile Include="FinancialResultReportEntry.cs" />
     <Compile Include="LocationReport.cs" />
     <Compile Include="LocationReportEntry.cs" />
     <Compile Include="ProductsReport.cs" />

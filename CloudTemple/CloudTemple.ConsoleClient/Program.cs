@@ -16,6 +16,8 @@
 
         private static readonly MySqlReportSaver MySqlReportSaver = new MySqlReportSaver();
 
+        private static readonly ExcelXlsxReportsGenerator ExcelXlsxReportsGenerator = new ExcelXlsxReportsGenerator();
+
         private static void Main()
         {
             // TODO: Improve logic by implementing factory design pattern
@@ -34,11 +36,16 @@
             // Problem 4.1
             JsonReportsGenerator.Generate();
 
+            // TODO: Connection problems -> unresolved
             // Problem 4.2
             //MySqlReportSaver.Save();
 
             // Problem 5
             XmlReportsHandler.Save();
+
+            // TODO: Unresolved issues due to MySQL Connection
+            // Problem 6
+            //ExcelXlsxReportsGenerator.Generate();
         }
     }
 }
