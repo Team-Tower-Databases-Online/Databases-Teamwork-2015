@@ -1,14 +1,17 @@
 <p align="center">
-<a href="http://academy.telerik.com/"><img src="https://raw.githubusercontent.com/lnikod4s/Telerik-Software-Academy/master/Modul%201/Sources/telerik-logo.png" /></a>
+	<a href="http://academy.telerik.com/">
+		<img src="https://raw.githubusercontent.com/lnikod4s/Telerik-Software-Academy/master/Modul%201/Sources/telerik-logo.png" />
+	</a>
 </p>
 
 - - -
 
-# Databases Teamwork 2015
+# Databases Teamwork October 2015
 
 ## Table Of Contents
 
 * [Contributors](#contributors)
+* [Installed Nuget Packages](#installed-nuget-packages)
 * [Project Description](#project-description)
 * [Problem 1](#problem-1)
 * [Problem 2](#problem-2)
@@ -20,11 +23,36 @@
 
 ## Contributors
 
-* Stanislav Bozhikov ([@bozhikovstanislav](https://github.com/bozhikovstanislav))
-* Hristo Hristov ([@Hri100v](https://github.com/Hri100v))
 * Lyudmil Nikodimov ([@lnikod4s](https://github.com/lnikod4s))
 * Niya Keranova ([@NayaIT](https://github.com/NayaIT))
-* Stanimir Daskalov ([@S.Daskalov](https://github.com/S.Daskalov))
+* Stanimir Daskalov ([@S.Daskalov](https://github.com/SDaskalov))
+
+## Installed Nuget Packages
+* DocumentFormat.OpenXml.2.5
+* DotNetZip.1.9.6
+* EntityFramework.6.1.3
+* ExcelFile.net.1.1.1
+* mongocsharpdriver.2.0.1
+* MongoDB.Bson.2.0.1
+* MongoDB.Driver.2.0.1
+* MongoDB.Driver.Core.2.0.1
+* MySql.Data.6.8.6
+* MySql.Data.6.9.7
+* MySql.Data.Entities.6.8.3.0
+* MySql.Data.Entity.6.9.7
+* Newtonsoft.Json.7.0.1
+* NPOI.2.0.6
+* PDFsharp.1.32.3057.0
+* PDFsharp-MigraDoc-GDI.1.32.4334.0
+* SharpZipLib.0.86.0
+* System.Data.SQLite.1.0.98.1
+* System.Data.SQLite.Core.1.0.98.1
+* System.Data.SQLite.EF6.1.0.98.1
+* System.Data.SQLite.Linq.1.0.98.1
+* Telerik.DataAccess.Core.2013.3.1320.1
+* Telerik.DataAccess.Core.2015.3.926.1
+* Telerik.DataAccess.Fluent.2013.3.1320.1
+* Telerik.DataAccess.Fluent.2015.3.926.1
 
 ## Project Description
 
