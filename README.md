@@ -24,7 +24,7 @@
 ## Contributors
 
 * __lnikod4s__ - Lyudmil Nikodimov ([@lnikod4s](https://github.com/lnikod4s))
-* __Наъата__ - Niya Keranova ([@NayaIT](https://github.com/NayaIT))
+* __Nayata__ - Niya Keranova ([@NayaIT](https://github.com/NayaIT))
 * __S.Daskalov__ - Stanimir Daskalov ([@S.Daskalov](https://github.com/SDaskalov))
 
 ## Installed Nuget Packages
